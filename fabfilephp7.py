@@ -5,7 +5,7 @@ from fabric.context_managers import cd
 
 def instalar_pxp():
 
-	question = raw_input("La conexion se realizara por un proxy? (s/n) : ")
+	question = raw_input("La conexion se realizara por un proxyROGQ? (s/n) : ")
 	if question == 's' :
 		question = raw_input("Ingrese la cadena de conexion del servidor proxy  (proxyuser:proxypwd@server:port o server:port) : ")
 		proxy = question
